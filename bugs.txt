@@ -1,0 +1,5 @@
+primero encontre el bug el foreach de .form_input y lo que hice fue invertir los boleanos osea value= true con value=false para que dejara de entrar en el error
+luego elimine la fecha de fechaUnix porque no sabia que coño hacia eso alli pero magt dijo que pusieramos la fecha  posteriormente en el html a los inputs clave 
+y usario les puse el atributo value y al submit un name="submit" de esa manera logre que entrara el primer if  luego quite el $_SESSION = NULL; de cerrarSession 
+y me dejo entrar finalmente cambie en action del boton cerrar session
+que le faltaba una p y cambien el header .
